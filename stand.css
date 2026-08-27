@@ -736,3 +736,50 @@ body {
         }
     }
 }
+
+@media(max-width:900px) {
+
+    body {
+        & header {
+            .container {
+                width: 100%;
+
+
+            }
+
+            #menu {
+                display: none !important;
+
+            }
+
+
+        }
+
+        & main {
+            & .one {
+                .container {
+                    width: 100%;
+
+                    .boxs {
+                        flex-wrap: wrap;
+                        width: 50%;
+                    }
+                }
+            }
+
+            & .second {
+                .container {
+                    width: 100%;
+
+                }
+            }
+
+        }
+
+
+
+    }
+
+
+
+}
